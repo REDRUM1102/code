@@ -69,6 +69,7 @@ def main():
     # 记录训练结束时间
     train_end = time.time()
     print(f"Training time: {train_end - train_start:.2f} seconds")
+    print(f"Training time: {train_end - train_start:.2f} seconds")
 
     # 记录识别开始时间
     infer_start = time.time()
